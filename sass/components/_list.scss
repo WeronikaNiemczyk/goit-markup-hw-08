@@ -1,0 +1,17 @@
+.list {
+  background-color: var(--main-background-color);
+}
+.list--padding {
+  padding-top: 0;
+  background-color: var(--main-background-color);
+}
+.images-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 0;
+}
+
+.list-team {
+  background-color: #f5f4fa;
+}

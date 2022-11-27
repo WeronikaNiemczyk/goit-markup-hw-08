@@ -1,0 +1,29 @@
+/* CLIENTS */
+
+.clients {
+  display: flex;
+  gap: 30px;
+  flex-basis: calc(100% - 150px) / 6;
+  cursor: pointer;
+}
+.clients__logo {
+  padding-top: 17.71px;
+  padding-bottom: 17.71px;
+  padding-left: 32px;
+  padding-right: 32px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  transition-property: fill, border;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  fill: #afb1b8;
+
+  &:hover,
+  &:focus {
+    --color3: var(--main-link-color);
+    fill: var(--color3);
+    --color2: var(--main-link-color);
+    fill: var(--color2);
+    border: 1px solid var(--main-link-color);
+  }
+}

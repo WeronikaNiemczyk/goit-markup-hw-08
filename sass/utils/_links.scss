@@ -1,0 +1,22 @@
+.link {
+  text-decoration: none;
+  display: block;
+  color: #000000;
+
+  &:hover,
+  &:focus {
+    color: var(--main-link-color);
+    transition-duration: var(--transition-duration);
+    transition-timing-function: var(--transition-timing-function);
+  }
+  &.footer__navigation {
+    color: rgba(255, 255, 255, 0.6);
+
+    &:hover,
+    &:focus {
+      color: var(--main-link-color);
+      transition-duration: var(--transition-duration);
+      transition-timing-function: var(--transition-timing-function);
+    }
+  }
+}

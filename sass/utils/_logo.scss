@@ -1,0 +1,15 @@
+.webstudio {
+    font-size: 26px;
+    line-height: 1.17;
+    word-spacing: 0.03px;
+    color: #000000;
+    font-family: "Raleway";
+    margin-right: 93px;
+  }
+  .webstudio__color {
+    color: var(--main-link-color);
+    transition-property: color;
+    transition-duration: var(--transition-duration);
+    transition-timing-function: var(--transition-timing-function);
+  }
+  

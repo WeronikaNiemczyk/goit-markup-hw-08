@@ -1,0 +1,24 @@
+
+:root {
+  --main-link-color: #2196f3;
+  --font-background-color: #757575;
+  --main-background-color: #ffffff;
+  --transition-duration: 250ms;
+  --transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", "Raleway", sans-serif;
+  color: #212121;
+  letter-spacing: 0.03em;
+}
+
+ul {
+  list-style-type: none;
+}

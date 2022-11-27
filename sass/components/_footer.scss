@@ -1,0 +1,18 @@
+.footer {
+  background-color: #2f303a;
+}
+
+.footer__container {
+  padding-top: 60px;
+  display: flex;
+}
+.footer__layout {
+  flex-direction: column;
+}
+.footer__navigation {
+  line-height: 1.71;
+  color: var(--main-background-color);
+}
+
+
+
