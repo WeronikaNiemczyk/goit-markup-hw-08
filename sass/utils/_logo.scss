@@ -1,15 +1,40 @@
 .webstudio {
+  word-spacing: 0.03px;
+  color: #000000;
+  font-family: "Raleway";
+
+  @media screen and (max-width: 768px) {
+    font-size: 24px;
+    line-height: 1.38;
+  }
+  @media screen and (min-width: 769px) {
+    font-size: 24px;
+    line-height: 1.38;
+  }
+  @media screen and (min-width: 1200px) {
     font-size: 26px;
     line-height: 1.17;
-    word-spacing: 0.03px;
-    color: #000000;
-    font-family: "Raleway";
-    margin-right: 93px;
   }
-  .webstudio__color {
-    color: var(--main-link-color);
-    transition-property: color;
-    transition-duration: var(--transition-duration);
-    transition-timing-function: var(--transition-timing-function);
-  }
-  
+}
+
+.webstudio__color {
+  color: var(--main-link-color);
+  transition-property: color;
+  transition-duration: var(--transition-duration);
+  transition-timing-function: var(--transition-timing-function);
+}
+
+// .webstudio {
+//   font-size: 26px;
+//   line-height: 1.17;
+//   word-spacing: 0.03px;
+//   color: #000000;
+//   font-family: "Raleway";
+//   margin-right: 93px;
+// }
+// .webstudio__color {
+//   color: var(--main-link-color);
+//   transition-property: color;
+//   transition-duration: var(--transition-duration);
+//   transition-timing-function: var(--transition-timing-function);
+// }

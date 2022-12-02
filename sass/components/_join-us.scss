@@ -3,6 +3,15 @@
   padding-left: 70px;
   display: flex;
   flex-direction: column;
+
+  @media screen and (max-width: 768px) {
+    padding: 0;
+    padding-bottom: 60px;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1200px) {
+    padding: 0;
+   margin-bottom: 102px;
+  }
 }
 .join-us__text {
   font-size: 14px;
@@ -11,6 +20,10 @@
   text-align: left;
   text-transform: uppercase;
   color: var(--main-background-color);
+
+  @media screen and (max-width: 1200px) {
+    text-align: center;
+  }
 }
 
 .join-us__img {

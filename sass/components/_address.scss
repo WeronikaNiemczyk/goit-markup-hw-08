@@ -1,8 +1,11 @@
 .address {
-    font-size: 14px;
-    line-height: 1.17;
-    font-style: normal;
-    padding-top: 20px;
-    padding-bottom: 60px;
-    display: flex;
+  font-size: 14px;
+  line-height: 1.17;
+  font-style: normal;
+  padding-top: 20px;
+  padding-bottom: 60px;
+  display: flex;
+  @media screen and (max-width: 768px) {
+    text-align: center;
   }
+}
