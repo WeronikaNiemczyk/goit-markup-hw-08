@@ -9,7 +9,7 @@
   width: 100%;
   height: 60px;
 }
-@media screen and (min-width: 768px) and (max-width:1200px) {
+@media screen and (min-width: 768px) and (max-width: 1200px) {
   .header-navigation {
     width: 100%;
     height: 80px;
@@ -27,7 +27,7 @@
   align-items: center;
   margin-right: 0px;
 }
-@media screen and (min-width: 768px) and (max-width:1200px) {
+@media screen and (min-width: 768px) and (max-width: 1200px) {
   .header-navigation__panel {
     margin-right: 0px;
   }
@@ -39,14 +39,30 @@
 }
 
 .header-navigation__menu {
-  display: none;
+  font-size: 14px;
+  line-height: 1.17;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  align-items: center;
+  justify-content: space-between;
+}
 
-  // font-size: 14px;
-  // line-height: 1.17;
-  // font-weight: 500;
-  // letter-spacing: 0.02em;
-  // align-items: center;
-  // justify-content: space-between;
+@media screen and (max-width: 768px) {
+  .header-navigation__menu {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .header-navigation__menu {
+    font-size: 14px;
+    line-height: 1.17;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+  }
 }
 
 .header-navigation__agency {
@@ -104,12 +120,50 @@
   }
 }
 
-.header-navigation__links {
-  display: none;
-  // display: flex;
-  // gap: 30px;
-  // justify-content: space-between;
-  // align-items: center;
+.header-navigation__links2 {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .header-navigation__links2 {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .header-navigation__links2 {
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+  }
+}
+
+.header-navigation__links1 {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .header-navigation__links1 {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .header-navigation__links1 {
+    flex-direction: row;
+    margin-left: 83px;
+    gap: 60px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .header-navigation__links1 {
+    flex-direction: row;
+    margin-left: 83px;
+  }
 }
 
 // .header {

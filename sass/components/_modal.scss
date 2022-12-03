@@ -3,10 +3,16 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 528px;
-  min-height: 581px;
+  width: 450px;
+  max-height: 609px;
   background-color: var(--main-background-color);
   z-index: 2;
+}
+@media screen and (min-width: 1200px) {
+  .modal {
+    width: 528px;
+    max-height: 581px;
+  }
 }
 .modal__btn {
   position: absolute;
@@ -23,4 +29,3 @@
 .modal__close-btn {
   width: 18px;
 }
-

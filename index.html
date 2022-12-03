@@ -17,6 +17,89 @@
   </head>
   <body>
     <header class="header">
+      
+      <!-- <div class="mobile-menu__overley" data-menu>
+        <div class="mobile-menu">
+          <button class="mobile-menu__btn" type="button" data-menu-close>
+            <svg class="mobile-menu__icon" width="40px" height="40px">
+              <use href="./images/close-modal.svg"></use>
+            </svg>
+          </button>
+          <ul class="mobile-menu__list-nav">
+            <li class="mobile-menu__item-nav">
+              <a
+                class="mobile-menu__link-nav mobile-menu__link-nav-accent"
+                href="./index.html"
+                >Agencja</a
+              >
+            </li>
+            <li class="mobile-menu__item-nav">
+              <a class="mobile-menu__link-nav" href="./portfolio.html"
+                >Portfolio</a
+              >
+            </li>
+            <li class="mobile-menu__item-nav">
+              <a class="mobile-menu__link-nav" href="">Kontakt</a>
+            </li>
+          </ul>
+          <ul class="mobile-menu__list-contact">
+            <li class="mobile-menu__list-contact-tel">
+              <a class="mobile-menu__link-contact-tel" href="tel:+48111111111"
+                >+48 111 111 111</a
+              >
+            </li>
+            <li class="mobile-menu__list-contact-mailto">
+              <a
+                class="mobile-menu__link-contact-mailto"
+                href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+          </ul>
+          <ul class="mobile-menu__list-social">
+            <li class="mobile-menu__item-social">
+              <a
+                class="mobile-menu__link-social"
+                href=""
+                target="_blank"
+                rel="nofollow noopener noreferrer"
+                aria-label="instagram"
+                >Instagram</a
+              >
+            </li>
+            <li class="mobile-menu__item-social">
+              <a
+                class="mobile-menu__link-social"
+                href=""
+                target="_blank"
+                rel="nofollow noopener noreferrer"
+                aria-label="twitter"
+                >Twitter</a
+              >
+            </li>
+            <li class="mobile-menu__item-social">
+              <a
+                class="mobile-menu__link-social"
+                href=""
+                target="_blank"
+                rel="nofollow noopener noreferrer"
+                aria-label="facebook"
+                >Facebook</a
+              >
+            </li>
+            <li class="mobile-menu__item-social">
+              <a
+                class="mobile-menu__link-social"
+                href=""
+                target="_blank"
+                rel="nofollow noopener noreferrer"
+                aria-label="linkedin"
+                >LinkedIn</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div> -->
       <div class="container">
         <section class="header-navigation">
           <div class="header-navigation__panel">
@@ -24,7 +107,7 @@
               ><span class="webstudio__color">Web</span>Studio</a
             >
             <nav class="header-navigation__menu">
-              <ul class="header-navigation__links">
+              <ul class="header-navigation__links1">
                 <li>
                   <a class="link header-navigation__agency" href="./index.html"
                     >Agencja</a
@@ -37,7 +120,8 @@
               </ul>
             </nav>
           </div>
-          <ul class="header-navigation__links">
+
+          <ul class="header-navigation__links2">
             <li>
               <a
                 class="link header-navigation__contact"
@@ -58,6 +142,11 @@
               >
             </li>
           </ul>
+          <button class="navmob__btn" type="button" data-menu-open>
+            <svg class="navmob__icon" width="40px" height="40px">
+              <use href="./images/menu.svg#icon-menu"></use>
+            </svg>
+          </button>
         </section>
       </div>
 
@@ -432,7 +521,7 @@
         </div>
       </div>
     </footer>
-    <!-- <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="modal__btn" data-modal-close>
           <svg class="modal__close-btn" width="30" height="30">
@@ -505,7 +594,8 @@
           </button>
         </form>
       </div>
-    </div> -->
+    </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
