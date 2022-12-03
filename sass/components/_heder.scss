@@ -9,7 +9,7 @@
   width: 100%;
   height: 60px;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width:1200px) {
   .header-navigation {
     width: 100%;
     height: 80px;
@@ -27,7 +27,7 @@
   align-items: center;
   margin-right: 0px;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width:1200px) {
   .header-navigation__panel {
     margin-right: 0px;
   }

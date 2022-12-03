@@ -17,7 +17,7 @@
   width: 450px;
   background-color: #f5f4fa;
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 768px) and (max-width:1200px) {
     padding-left: 142px;
     padding-right: 142px;
     width: 354px;
