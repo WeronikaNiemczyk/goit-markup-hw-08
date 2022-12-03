@@ -27,6 +27,7 @@
 
   @media screen and (max-width: 1200px) {
     text-align: center;
+    display: flex;
   }
 }
 .newsletter__form {
@@ -91,6 +92,6 @@
     align-items: center;
     justify-content: center;
     margin: 0;
-    margin-right: 125px;
+    
   }
 }

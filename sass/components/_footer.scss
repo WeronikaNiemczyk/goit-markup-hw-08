@@ -5,13 +5,16 @@
 .footer__container {
   padding-top: 60px;
   display: flex;
-
-  @media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 768px) {
+  .footer__container {
     flex-direction: column;
     align-items: center;
     padding-bottom: 60px;
   }
-  @media screen and (min-width: 768px) and (max-width: 1200px) {
+}
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .footer__container {
     flex-wrap: wrap;
     align-items: center;
     padding-bottom: 60px;
@@ -19,10 +22,14 @@
 }
 .footer__layout {
   flex-direction: column;
-  @media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 768px) {
+  .footer__layout {
     text-align: center;
   }
-  @media screen and (min-width: 768px) and (max-width: 1200px) {
+}
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .footer__layout {
     flex-direction: row;
     text-align: center;
     margin-right: 144px;
