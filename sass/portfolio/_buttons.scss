@@ -29,15 +29,3 @@
   }
 }
 
-.navmob__btn {
-  background-color: transparent;
-  display: inline-flex;
-  border: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  transition: var(--transition-timing-function);
-  @media screen and (min-width: 768px) {
-    display: none;
-  }
-}
