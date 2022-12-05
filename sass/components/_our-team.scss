@@ -11,6 +11,13 @@
     flex-basis: calc((100% - 90px) / 4);
   }
 }
+
+.our-team__list {
+  @media screen and (max-width: 480px) {
+    max-width: 100%;
+    height: auto;
+  }
+}
 .our-team__figure {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -19,22 +26,29 @@
   max-width: 100%;
 
   @media screen and (max-width: 768px) {
-    max-width: 450px;
-    height: 622px;
+    width: 450px;
   }
   @media screen and (min-width: 768px) and (max-width: 1200px) {
-    max-width: 354px;
+    width: 354px;
     height: 336x;
   }
 }
 .our-team__img {
-  @media screen and (max-width: 768px) {
+  width: 100%;
+  height: auto;
+
+  @media screen and (min-width: 480px) and (max-width: 768px) {
     width: 450px;
     height: 460px;
   }
   @media screen and (min-width: 768px) and (max-width: 1200px) {
     width: 354px;
-    height: 374px;
+    height: 336x;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 270px;
+    height: 260px;
   }
 }
 .our-team__name {

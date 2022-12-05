@@ -19,19 +19,22 @@
     <header class="header">
       <div class="container">
         <section class="header-navigation">
+         
           <div class="header-navigation__panel">
             <a class="link webstudio" href="./index.html"
               ><span class="webstudio__color">Web</span>Studio</a
             >
-            <button
-              class="menu__toggle js-open-menu"
-              aria-expanded="false"
-              aria-controls="mobile-menu"
-            >
-              <svg width="40px" height="40px">
-                <use href="./images/menu.svg#icon-menu"></use>
-              </svg>
-            </button>
+            <div class="menu__mobile-toggle">
+              <button
+                class="menu__toggle js-open-menu"
+                aria-expanded="false"
+                aria-controls="mobile-menu"
+              >
+                <svg width="40px" height="40px">
+                  <use href="./images/menu.svg#icon-menu"></use>
+                </svg>
+              </button>
+            </div>
             <nav class="header-navigation__menu">
               <ul class="header-navigation__links1">
                 <li>
@@ -86,9 +89,11 @@
         <div class="container">
           <ul class="images-list">
             <li class="images-item">
-              <svg class="images-item__graph" width="270" height="120">
-                <use href="./images/icons.svg#icon-antenna-1"></use>
-              </svg>
+              <div class="images-item__container">
+                <svg class="images-item__graph" width="70" height="70">
+                  <use href="./images/icons.svg#icon-antenna-1"></use>
+                </svg>
+              </div>
               <h4 class="images-item__title">LOREM IPSUM</h4>
               <p class="images-item__text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
@@ -97,9 +102,11 @@
             </li>
 
             <li class="images-item">
-              <svg class="images-item__graph" width="270" height="120">
-                <use href="./images/icons.svg#icon-clock-1"></use>
-              </svg>
+              <div class="images-item__container">
+                <svg class="images-item__graph" width="70" height="70">
+                  <use href="./images/icons.svg#icon-clock-1"></use>
+                </svg>
+              </div>
               <h4 class="images-item__title">LOREM IPSUM</h4>
               <p class="images-item__text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
@@ -107,9 +114,11 @@
               </p>
             </li>
             <li class="images-item">
-              <svg class="images-item__graph" width="270" height="120">
-                <use href="./images/icons.svg#icon-diagram-1"></use>
-              </svg>
+              <div class="images-item__container">
+                <svg class="images-item__graph" width="70" height="70">
+                  <use href="./images/icons.svg#icon-diagram-1"></use>
+                </svg>
+              </div>
               <h4 class="images-item__title">LOREM IPSUM</h4>
               <p class="images-item__text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
@@ -117,9 +126,11 @@
               </p>
             </li>
             <li class="images-item">
-              <svg class="images-item__graph" width="270" height="120">
-                <use href="./images/icons.svg#icon-astronaut-1"></use>
-              </svg>
+              <div class="images-item__container">
+                <svg class="images-item__graph" width="70" height="70">
+                  <use href="./images/icons.svg#icon-astronaut-1"></use>
+                </svg>
+              </div>
               <h4 class="images-item__title">LOREM IPSUM</h4>
               <p class="images-item__text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
@@ -175,7 +186,7 @@
         <div class="container">
           <h2 class="section-title">Nasz zespół</h2>
           <ul class="our-team">
-            <li>
+            <li class="our-team__list">
               <div class="our-team__figure">
                 <img
                   class="our-team__img"
@@ -220,7 +231,7 @@
                 </div>
               </div>
             </li>
-            <li>
+            <li class="our-team__list">
               <div class="our-team__figure">
                 <img
                   class="our-team__img"
@@ -265,7 +276,7 @@
                 </div>
               </div>
             </li>
-            <li>
+            <li class="our-team__list">
               <div class="our-team__figure">
                 <img
                   class="our-team__img"
@@ -310,7 +321,7 @@
                 </div>
               </div>
             </li>
-            <li>
+            <li class="our-team__list">
               <div class="our-team__figure">
                 <img
                   class="our-team__img"

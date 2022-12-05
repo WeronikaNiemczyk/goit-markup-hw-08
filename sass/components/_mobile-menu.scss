@@ -55,6 +55,7 @@
 .menu__toggle {
   min-height: 40px;
   min-width: 40px;
+  display: inline-flex;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -65,11 +66,17 @@
   border-radius: 50%;
   outline: none;
   position: absolute;
-  margin-left: calc(276px + 134px);
+  // margin-left: calc(276px + 134px);
 
   &:hover {
     fill: #2196f3;
   }
+}
+.menu__mobile-toggle {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  margin: 28% 67%;
 }
 
 .menu__toggle-close {
