@@ -1,11 +1,7 @@
 .list {
   background-color: var(--main-background-color);
 }
-@media screen and (max-width: 768px) {
-  .list {
-    max-width: 480px;
-  }
-}
+
 .list--padding {
   padding-top: 0;
   background-color: var(--main-background-color);
@@ -35,7 +31,6 @@
 .list-team {
   background-color: #f5f4fa;
 }
-
 
 // .list {
 //   background-color: var(--main-background-color);
